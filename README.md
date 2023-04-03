@@ -69,7 +69,7 @@ server:
         type: helm
         url: https://argoproj.github.io/argo-helm
   additionalApplications: 
-    - name: argocd
+    - name: a
       namespace: argocd
       destination:
         namespace: argocd
